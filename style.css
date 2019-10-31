@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navigation li a {
+    color: white;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+#navigation li a:hover {
+    border-bottom: blue solid;
+}
+
+#site-name {
+    margin-left: 100px;
+    font-family: "Lobster", sans-serif;
+    font-size: 2.4em;
+}
+
+#btn {
+    padding: 10px 20px 10px 20px;
+
+}
+
+#space {
+    background: linear-gradient(to top,rgba(48, 9, 189, 0.9), rgba(2, 3, 49, 0.2)), url(picsyellow.jpg);
+    height: 82vh;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+#space-items p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-top: 6em;
+    font-weight: bold;
+}
+#space-items h1 {
+    color: white;
+    font-family: "Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 3.7em;
+}
+
+#space-items h4 {
+    font-family: sans-serif;
+    font-size: 3.8em;
+    font-weight: bolder;
+    color: black;
+}
+
+#first-section {
+    text-align: center;
+
+}
+
+#first-section p {
+    font-size: 1.4em;
+    color: grey;
+    line-height: 1px;
+    font-family: sans-serif;
+}
+
+#first-section h4 {
+    font-weight: bolder;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+#first-section input {
+    text-align: center;
+    padding: 26px;
+    margin-top: 40px;
+    border: blue 1px solid;
+    font-family: sans-serif;
+}
+
+#first-section input:focus {
+    border-color: none;
+}
+
+#footer {
+    height: 50vh;
+    background: black;
+
+}
+
+#footer-text {
+    margin-left: 70px;
+    margin-top: 80px;
+    color: white;
+}
+
+#footer-text ul li {
+    list-style-type: none;
+    line-height: 2em;
+    font-weight: 100;
+}
+
+#head-text {
+    font-size: 34px;
+    color: blue;
+}
+
+#products {
+    text-align: center !important;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 3.4em;
+    color: blue;
+}
+
+#footer-text ul li a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: white;
+}
